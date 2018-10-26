@@ -48,15 +48,15 @@ function preload(){
   //populate an array with individual .ogg files of the sound
   //to be granulated
   for(var i = 0; i<numberOfFiles; i++){
-    soundArray1[i] = loadSound('assets/granulationFiles/granulationFile'+(i+1)+'.ogg');
-    soundArray2[i] = loadSound('assets/granulationFiles/granulationAlternate copy '+(i+1)+'.ogg');
+    soundArray1[i] = loadSound('../assets/granulationFiles/granulationFile'+(i+1)+'.ogg');
+    soundArray2[i] = loadSound('../assets/granulationFiles/granulationAlternate copy '+(i+1)+'.ogg');
   }
 
   //populate an array with individual .ogg files of the 'melodic'
   //piano sound
   soundFormats('ogg');
   for(var i = 0; i<numberofCircles; i++){
-    soundArray[i] = loadSound('assets/pianonote'+i+'.ogg');
+    soundArray[i] = loadSound('../assets/pianonote'+i+'.ogg');
   }
 }
 
